@@ -14,7 +14,7 @@ devezhang Blog : [www.icanbe.co](https://icanbe.co/)
 
 **You can free to use this theme, but you need to keep the following copyright notice on the website.**
 
-<img src="https://res.cloudinary.com/dqxtn0ick/image/upload/v1537879475/header/copyright.png" width="55%">
+<img src="https://res.cloudinary.com/devezhang/image/upload/v1572332681/blog/copyright.png" width="55%">
 
 # Install Hexo
 
