@@ -8,7 +8,7 @@
 
 devezhang Blog : [www.icanbe.co](https://icanbe.co/)
 
-![Theme_devezhang](https://res.cloudinary.com/devezhang/image/upload/v1572316067/blog/devezhang_blog.png)
+![Theme_devezhang](https://res.cloudinary.com/devezhang/image/upload/v1572330853/blog/devezhang_blog.png)
 
 # Copyright Notice
 
@@ -88,7 +88,8 @@ You can decide to show post tags or not.
 ```yml
 home_posts_tag: true
 ```
- ![tag](https://raw.githubusercontent.com/devezhang/hexo-theme-devezhang/master/source/img/article/tag.png)
+<img src="https://res.cloudinary.com/devezhang/image/upload/v1572335129/blog/tag.png" width="55%">
+
 ### Markdown render
 My markdown render engine plugin is [hexo-renderer-markdown-it](https://github.com/celsomiranda/hexo-renderer-markdown-it).
 ```yml
