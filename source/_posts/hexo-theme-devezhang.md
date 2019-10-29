@@ -1,20 +1,25 @@
-> Ported Theme of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), Thank [Huxpro](https://github.com/Huxpro) for designing such a flawless theme.
->
-> This devezhang theme created by [devezhang](https://icanbe.co/) modified from the original Porter [YuHsuan](https://github.com/YenYuHsuan/hexo-theme-beantech).
-> 
-> This theme has been published to the [hexo theme list](https://hexo.io/themes/).
+---
+title: "[Hexo] Theme devezhang"
+catalog: true
+toc_nav_num: true
+date: 2017-09-18 10:51:24
+subtitle: "This is hexo theme Demo."
+header-img: "/img/article_header/article_header.png"
+tags:
+- Hexo
+catagories:
+- Hexo
+updateDate: 2018-12-23 22:26:24
+top: 1
+
+---
+> This devezhang theme created by [devezhang](https://icanbe.co/) modified from the original Porter [YuHsuan](https://github.com/YenYuHsuan/hexo-theme-beantech)
 
 # Live Demo
 
-devezhang Blog : [www.icanbe.co](https://icanbe.co/)
+devezhang Blog : [www.icanbe.co](https//icanbe.co/)
 
-![Theme_devezhang](https://res.cloudinary.com/devezhang/image/upload/v1572316067/blog/devezhang_blog.png)
-
-# Copyright Notice
-
-**You can free to use this theme, but you need to keep the following copyright notice on the website.**
-
-<img src="https://res.cloudinary.com/dqxtn0ick/image/upload/v1537879475/header/copyright.png" width="55%">
+![Theme devezhang](https://res.cloudinary.com/devezhang/image/upload/v1572330853/blog/devezhang_blog.png)
 
 # Install Hexo
 
@@ -38,6 +43,7 @@ npm install hexo-cli -g
 
 ## Init
 
+---
 ```bash
 git clone https://github.com/PyElite/hexo-pages.git
 cd hexo-pages
@@ -45,6 +51,7 @@ npm install
 ```
 
 ## Modify
+---
 Modify `_config.yml` file with your own info.
 Especially the section:
 ### Deployment
@@ -88,7 +95,7 @@ You can decide to show post tags or not.
 ```yml
 home_posts_tag: true
 ```
- ![tag](https://raw.githubusercontent.com/devezhang/hexo-theme-devezhang/master/source/img/article/tag.png)
+![home_posts_tag-true](/img/article/tag.png)
 ### Markdown render
 My markdown render engine plugin is [hexo-renderer-markdown-it](https://github.com/celsomiranda/hexo-renderer-markdown-it).
 ```yml
@@ -114,14 +121,20 @@ async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
 ```
 
 ## Hexo Basics
+---
 Some hexo command:
 ```bash
 hexo new post "<post name>" # you can change post to another layout if you want
 hexo clean && hexo generate # generate the static file
 hexo server # run hexo in local environment
-hexo deploy # hexo will push the static files automatically into the specific branch(gh-pages) of your repo!
+hexo deploy # hexo will push the static files automatically into the specific branch(pages) of your repo!
 ```
 
 # Have fun ^_^ 
-Please <a class="github-button" href="https://github.com/devezhang/hexo-theme-devezhang" data-icon="octicon-star" aria-label="Star devezhang/hexo-theme-devezhang on GitHub">Star</a> this Project if you like it! <a class="github-button" href="https://github.com/devezhang" aria-label="Follow @devezhang on GitHub">Follow</a> would also be appreciated!
+---
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<!-- Place this tag where you want the button to render. -->
+
+Please <a class="github-button" href="https://gitee.com/devezhang/pages.git" data-icon="octicon-star" aria-label="Star devezhang on GitHub">Star</a> this Project if you like it! <a class="github-button" href="https://gitee.com/devezhang/pages.git" aria-label="Follow @devezhang on GitHub">Follow</a> would also be appreciated!
 Peace!
