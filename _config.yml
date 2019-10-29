@@ -53,6 +53,7 @@ anchorjs: true                          # if you want to customize anchor. check
 # Share component is depend on Comment so we can NOT use share only.
 #duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
+# 来必力评论uid, 关联域名
 livere_uid: 'MTAyMC80NzI4NC8yMzc4NA=='
 
 # Analytics settings
